@@ -6,6 +6,6 @@ class Facade extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        return Support::class;
+        return new Support();
     }
 }
