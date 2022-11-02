@@ -1,0 +1,27 @@
+{
+    "name": "jasonkonmax/laravel-support",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jasonkonmax\\LaravelSupport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JasonKonMax",
+            "email": "jason.konmax@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jasonkonmax\\LaravelSupport\\ServiceProvider"
+            ],
+            "aliases": {
+                "Uploader": "Jasonkonmax\\LaravelSupport\\Facade"
+            }
+        }
+    }
+}
