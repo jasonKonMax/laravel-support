@@ -1,6 +1,6 @@
 {
     "name": "jasonkonmax/laravel-support",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
