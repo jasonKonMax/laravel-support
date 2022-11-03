@@ -15,8 +15,8 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
     public function register(): void
     {
-        $this->app->singleton(Uploader::class, function () {
-            return new Uploader();
+        $this->app->singleton(Support::class, function () {
+            return new Support();
         });
     }
 }
