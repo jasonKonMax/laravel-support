@@ -7,6 +7,10 @@ use \Aws\S3\S3Client;
 class Support
 {
     /**
+     * @param \Aws\S3\S3Client $client
+     * @param                  $dest
+     * @param                  $source
+     *
      * @return void
      */
     public static function dirSyncS3(S3Client $client, $dest, $source)
