@@ -55,6 +55,7 @@ class AuthService
 
     public function user()
     {
+        //123
         return $this->userData;
     }
 
